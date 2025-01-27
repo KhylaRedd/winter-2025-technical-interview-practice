@@ -1,4 +1,6 @@
-function sayHello() {
+function sayHello(\
+    
+) {
     return "Hello"
 }
 

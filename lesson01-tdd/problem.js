@@ -11,7 +11,14 @@
  * @returns {boolean} - True if the string is a palindrome, false otherwise.
  */
 function isPalindrome(str) {
-  // your code here
+  let strr= str.split('');
+  let compareArr = strr.reverse().join()
+  console.log(compareArr)
+  
+  if(str === '' || str.length === 1 || str === compareArr){
+    return true
+  }
+  return false
 }
 
 module.exports = isPalindrome;
