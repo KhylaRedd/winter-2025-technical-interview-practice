@@ -6,6 +6,7 @@
  */
 function lengthOfLongestSubstring(s) {
   // Your code here
+  console.log(s)
 }
-
+lengthOfLongestSubstring()
 module.exports = lengthOfLongestSubstring;
